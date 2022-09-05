@@ -146,7 +146,7 @@ h3 a:hover {
 
 /* Media Queries */
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
     .first_section .p_text {
         padding-right: 130px;
         margin-bottom: 0px;
