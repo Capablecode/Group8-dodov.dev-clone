@@ -53,13 +53,10 @@ p {
     margin-bottom: 24px;
 }
 
-.header_text {
-    margin-bottom: 24px;
-}
-
 .p_text {
     font-size: 16px;
     font-weight: 500;
+    margin-bottom: 24px;
 }
 
 h3 {
@@ -145,4 +142,118 @@ h3 a:hover {
 .monokai a{
     color: #ffffff;
     text-decoration: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:768px) {
+    .first_section .p_text {
+        padding-right: 130px;
+        margin-bottom: 0px;
+    }
+
+    h3 a {
+        text-decoration: none;
+        font-weight: 900;
+        padding-right: 64px;
+    }
+
+    .first_section .query_p_text {
+        padding-right: 130px;
+        margin-bottom: 24px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        margin: 32px auto;
+    }
+
+    .numbers {
+        padding-top: 32px;
+        padding-left: 8px;
+        color: #90908a;
+        text-align: right;
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    .text_content {
+        padding: 32px 0 0 8px;
+    }
+
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .header .p_text {
+        font-size: 14px;
+        font-weight: 500;
+        padding-right: 70px;
+    }
+
+    .header_text {
+        margin-bottom: 24px;
+    }
+
+    .first_section {
+        display: block;
+    }
+
+    .images {
+        width: 290px;
+        margin-bottom: 24px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .first_section .p_text {
+        padding-right: 80px;
+    }
+
+    .small_text {
+        font-size: 14px;
+    }
+
+    .scnd_sctn_p_text {
+        font-size: 14px;
+        padding-right: 64px;
+    }
+
+    .third_sctn_lrg_txt {
+        padding-right: 270px;
+    }
+
+    .fourth_sctn_lrg_txt {
+        padding-right: 270px;
+    }
+
+    .first_section .query_p_text {
+        margin-bottom: 0px;
+    }
+
+    .hr_div:after {
+        content: "----------------------------";
+        overflow-wrap: anywhere;
+        font-variant-ligatures: none;
+    }
+
+    .footer {
+        display: block; 
+    }
+
+    .footer ul{
+        display: block;
+        list-style-type: none;
+        margin-bottom: 24px;
+    }
+
+    .monokai {
+        margin-left: 0px;
+    }
 }
