@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fira Code", monospace;
+  background-color: #1e1f1c;
+}
+h1 {
+  color: #f8f8f2;
+}
+p {
+  color: #cfcfc2;
+}
+.nav_bar {
+  padding-top: 7rem;
+  width: 718px;
+  display: flex;
+  justify-content: center;
+}
+.nav_bar .home,
+.blog,
+.project {
+  color: white;
+  background-color: #272822;
+  padding: 1rem;
+  border: 0;
+  font-size: 1rem;
+}
+.nav_bar .home,
+.blog,
+.project a:hover {
+  background-color: #34352f;
+}
+.parent_container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 800px;
+  border: 1px solid #272822;
+  background-color: #272822;
+  line-height: 24px;
+  margin-bottom: 6.25rem;
+  padding-top: 1.875rem;
+}
+.left_side a {
+  display: block;
+  text-decoration: none;
+  font-family: "Fira Code", monospace;
+  color: #90908a;
+  font-size: 1rem;
+  line-height: 24px;
+}
+.left_side .one #all a:hover {
+  color: #4e94ce;
+}
+.right_side {
+  padding: 0 0.6rem;
+}
+.right_side header h1 {
+  font-size: 1.25rem;
+  font-family: "Fira Code", monospace;
+}
+.right_side header p {
+  margin-bottom: 1.313rem;
+  font-size: 0.9rem;
+}
+/* article */
+article {
+  margin-bottom: 2rem;
+}
+.article_img {
+  width: 50px;
+}
+.desktop_article {
+  display: none;
+}
+.mobile_article > p {
+  font-size: 0.9rem;
+}
+.mobile_article div:first-child {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.img_description_div {
+  margin-left: 2rem;
+}
+.img_description_div a {
+  color: #f8f8f2;
+}
+.no_underline {
+  text-decoration: none;
+}
+a.yellow_link {
+  line-height: 4px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.footer_separator {
+  margin: 1.5rem 0;
+  display: flex;
+  height: 1.5rem;
+  overflow: hidden;
+  border-width: 0px;
+  color: #88846f;
+}
+@media screen and (min-width: 768px) {
+  .desktop_article {
+    display: block;
+    display: flex;
+    padding-right: 9rem;
+  }
+  .mobile_article {
+    display: none;
+  }
+  .article_img {
+    width: 100px;
+  }
+  a.yellow_link {
+    color: #a6e22e !important;
+  }
+  .footer_separator::before {
+    content: "//";
+    margin-right: 1ch;
+  }
+  .footer_separator::after {
+    content: "--------------------------------------------------------------";
+    overflow-wrap: anywhere;
+    font-variant-ligatures: none;
+  }
+}
