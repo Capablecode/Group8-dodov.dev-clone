@@ -5,6 +5,11 @@ module.exports = {
 		fontFamily: {
 			mono: ["Fira Code", "monospace"],
 		},
+
+		screens: {
+			normal: "375px",
+			tab: "768px",
+		},
 		extend: {
 			colors: {
 				body: "#1e1f1c",
@@ -15,7 +20,7 @@ module.exports = {
 				othertext: "#cfcfc2",
 				number: "#90908a",
 				numberhover: "#c2c2bf",
-				highlight: "#3e3d32",
+				highlight: "#c2c2bf",
 				accent: "#a6e22e",
 				accenthover: "#4e94ce",
 				code1: "#3E3D32",
@@ -24,7 +29,6 @@ module.exports = {
 				dashed: "#757260",
 			},
 			screens: {
-				normal: "375px",
 				iphoneplus: "414px",
 			},
 		},
