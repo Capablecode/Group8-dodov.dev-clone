@@ -133,9 +133,12 @@ p {
     gap: 30px;
 }
 
-.read_more a {
+.read{
+     display: flex;
+     gap: 12px;
+}
+.read_more a{
     text-decoration: none;
-
 }
 
 .read_more span {
@@ -268,7 +271,6 @@ p {
 .footer ul li a:hover {
     color: #4e94ce;
 }
-
 
 
 @media screen and (max-width: 575px) {
