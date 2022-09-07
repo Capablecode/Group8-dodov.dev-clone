@@ -102,8 +102,6 @@ p{
 .read{
      display: flex;
      gap: 12px;
-     /* margin-top: 20px;
-     margin-bottom: 25px; */
 }
 .read_more a{
     text-decoration: none;
@@ -180,24 +178,3 @@ p{
 }
 
 
-
-
-/* .last_part{
-    display: flex;
-    /* margin-top: 20px; */
-    justify-content: space-around;
-    /* gap: 15px;
-}
-.handles{
-    /* margin-left: -65px;
-    margin-right: 35px; */
-    /* font-size: 16px;
-    font-family: 'Fira Code', monospace;
-    display: flex;
-    justify-content: space-between;
-
-     */
-/* }
-.handles a{
-    color: #A6E22E;
-} */ */ */
