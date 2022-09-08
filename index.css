@@ -9,7 +9,7 @@ body {
 }
 
 .nav_bar {
-    padding-left: 310px;
+    /* padding-left: 310px; */
     padding-top: 70px;
     justify-content: flex-start;
 }
@@ -35,17 +35,9 @@ body {
 .parent_container {
     justify-content: center;
     display: flex;
-display: flex; 
-    display: flex;
-display: flex; 
-    display: flex;
     border: 1px solid #272822;
-    width: 800px;
+    max-width: 768px;
     height: 2000px;
-    margin: 0px auto;
- margin: 0px auto;  
-    margin: 0px auto;
- margin: 0px auto;  
     margin: 0px auto;
     background-color: #272822;
     gap: 40px;
@@ -280,8 +272,6 @@ p {
         justify-content: flex-start;
         padding-left: 0px;
         padding-top: 0;
-
-
     }
 
 
@@ -289,7 +279,7 @@ p {
         justify-content: center;
         display: flex;
         border: 1px solid #272822;
-        width: 800px;
+        max-width: 768px;
         height: 2000px;
         margin: 0px auto;
         background-color: #272822;
@@ -298,8 +288,6 @@ p {
         margin-bottom: 100px;
         padding-top: 30px;
         margin-left: -100px;
-
-
     }
 
     .left_side a {
@@ -449,12 +437,14 @@ p {
         padding-left: 0px;
         padding-top: 70px;
         justify-content: flex-start;
+        margin: 0 auto;
+        max-width: 768px;
 
     }
 
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
     .nav_bar {
         padding-left: 112px;
         padding-top: 70px;
@@ -468,4 +458,4 @@ p {
         padding-left: 320px;
         padding-top: 70px;
     }
-}
+} */
