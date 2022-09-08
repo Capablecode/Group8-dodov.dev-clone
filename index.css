@@ -9,11 +9,7 @@ body {
 }
 
 .nav_bar {
-<<<<<<< HEAD
     /* padding-left: 310px; */
-=======
-    padding-left: 320px;
->>>>>>> bfae82ced9b33686a56af4a2a727ec93a5300caa
     padding-top: 70px;
     justify-content: flex-start;
 }
