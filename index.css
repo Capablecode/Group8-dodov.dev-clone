@@ -9,7 +9,11 @@ body {
 }
 
 .nav_bar {
+<<<<<<< HEAD
     /* padding-left: 310px; */
+=======
+    padding-left: 320px;
+>>>>>>> bfae82ced9b33686a56af4a2a727ec93a5300caa
     padding-top: 70px;
     justify-content: flex-start;
 }
@@ -35,9 +39,17 @@ body {
 .parent_container {
     justify-content: center;
     display: flex;
+display: flex; 
+    display: flex;
+display: flex; 
+    display: flex;
     border: 1px solid #272822;
     max-width: 768px;
     height: 2000px;
+    margin: 0px auto;
+ margin: 0px auto;  
+    margin: 0px auto;
+ margin: 0px auto;  
     margin: 0px auto;
     background-color: #272822;
     gap: 40px;
